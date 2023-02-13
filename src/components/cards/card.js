@@ -11,8 +11,10 @@ export const Card = (props) => {
                 <h1>{props.title}</h1>
                 <i className="fa-solid fa-ellipsis"></i>
             </div>
-            <h2>{props.hours}hrs</h2>
-            <p>Last Week - {props.last}hrs</p>
+            <div className='hours'>
+                <h2>{props.hours}hrs</h2>
+                <p>Last Week - {props.last}hrs</p>
+            </div>
         </div>
     </div>
   )

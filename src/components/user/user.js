@@ -17,8 +17,10 @@ export const User = () => {
             <div className='userInfo'>
                 <div className='userInfoTxt'>
                     <img src="./images/image-jeremy.png" alt="" />
-                    <p>Report for</p>
-                    <h1>Jeremy Robson</h1>
+                    <div>
+                        <p>Report for</p>
+                        <h1>Jeremy Robson</h1>
+                    </div>
                 </div>
                 <ul className='btnInfo'>
                     <li className='btnActive' onClick={changeTime}>Daily</li>

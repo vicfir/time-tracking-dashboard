@@ -72,3 +72,21 @@
         background-color: hsl(236, 37%, 36%);
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 50px;
+
+        .card {
+            width: 100%;
+
+            .hours {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+}
