@@ -1,12 +1,12 @@
-
-
+import { Cards } from "./components/cards/cards";
 
 function App() {
   return (
     <div className="App">
-      <header>
-            
-      </header>
+      
+      <main>
+        <Cards/>
+      </main>
       
     </div>
   );
