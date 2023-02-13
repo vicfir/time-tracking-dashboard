@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Cards } from '../cards/cards'
+import './public/style/user.scss'
 
 export const User = () => {
     const [time, setTime] = useState("daily");
@@ -10,7 +11,7 @@ export const User = () => {
 
     }
     return (
-        <div>
+        <div className='user'>
             <div>
                 <img src="./images/image-jeremy.png" alt="" />
                 <p>Report for</p>
