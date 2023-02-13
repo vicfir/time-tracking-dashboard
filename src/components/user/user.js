@@ -8,7 +8,9 @@ export const User = () => {
         setTime(
             e.target.textContent.toLowerCase()
         );
-
+        let activeBtn = document.querySelector(".btnActive");
+        activeBtn.className="";
+        e.target.className="btnActive";
     }
     return (
         <div className='user'>
@@ -19,7 +21,7 @@ export const User = () => {
                     <h1>Jeremy Robson</h1>
                 </div>
                 <ul className='btnInfo'>
-                    <li onClick={changeTime}>Daily</li>
+                    <li className='btnActive' onClick={changeTime}>Daily</li>
                     <li onClick={changeTime}>Weekly</li>
                     <li onClick={changeTime}>Monthly</li>
                 </ul>

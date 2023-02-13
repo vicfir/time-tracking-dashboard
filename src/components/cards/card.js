@@ -7,7 +7,10 @@ export const Card = (props) => {
             <img src={props.image} alt="" />
         </div>
         <div className='cardInfo'>
-            <h1>{props.title}</h1>
+            <div className='titleMenu'>
+                <h1>{props.title}</h1>
+                <i className="fa-solid fa-ellipsis"></i>
+            </div>
             <h2>{props.hours}hrs</h2>
             <p>Last Week - {props.last}hrs</p>
         </div>
