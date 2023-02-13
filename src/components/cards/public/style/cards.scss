@@ -2,9 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 75%;
 
     .card {
-        margin-top: 50px;
+        margin-top: 80px;
         width: 30%;
         background-color: hsl(235, 46%, 20%);
         border-radius: 10px;

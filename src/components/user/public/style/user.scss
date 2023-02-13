@@ -1,3 +1,50 @@
 .user {
     display: flex;
+
+    .userInfo {
+        background-color: hsl(235, 46%, 20%);
+        border-radius: 10px;
+        width: 25%;
+        margin-right: 3.3%;
+        margin-top: 30px;
+
+        .userInfoTxt {
+            background-color: hsl(246, 80%, 60%);
+            border-radius: 10px;
+            height: 60%;
+            padding: 30px;
+
+            img {
+                width: 80px;
+                border: 3px solid white;
+                border-radius: 100%;
+            }
+            p{
+                color: hsl(236, 100%, 87%);
+                margin-top: 40px;
+            }
+            h1 {
+                color: white;
+                font-weight: 300;
+                font-size: 40px;
+                margin: 0 0 30px 0;
+            }
+        }
+
+        .btnInfo {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0 30px;
+
+            li {
+                color: hsl(235, 45%, 61%);
+                font-size: 20px;
+                margin: 8px 0;
+                cursor: pointer;
+            }
+
+        }
+    }
 }
