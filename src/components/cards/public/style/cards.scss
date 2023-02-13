@@ -10,6 +10,7 @@
         background-color: hsl(235, 46%, 20%);
         border-radius: 10px;
         position: relative;
+        cursor: pointer;
 
         .cardImg {
             border-radius: 10px 10px 0 0;
@@ -42,6 +43,11 @@
                 i {
                     color: hsl(236, 100%, 87%);
                     font-size: 25px;
+                    cursor: pointer;
+                }
+
+                i:hover {
+                    color: white;
                 }
             }
 
@@ -60,5 +66,9 @@
                 margin: 0;
             }
         }
+    }
+
+    .card:hover {
+        background-color: hsl(236, 37%, 36%);
     }
 }
